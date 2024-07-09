@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/* Header, Hero */
+
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2B2B2B;
+    font-family: "Inter", sans-serif;
+  
+}
+
+
+.header
+{
+    background-image: url(/img/BGhero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo
+{
+    height: 70px;
+    width: 150px;
+}
+
+ul, li, a
+{
+    display: flex;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.contact__us
+{
+    border: none;
+    border-radius: 15px;
+    padding: 0 20px;
+    margin: 0 10px;
+    background-color: #ECC746;
+}
+
+h1
+{
+    color: #ECC746;
+    font-size: 3rem;
+}
+
+p
+{
+    width: 700px;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.container__1
+{
+    padding: 20vh;
+}
+
+.scroll
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    color: white;
+}
+
+/* Vision */
