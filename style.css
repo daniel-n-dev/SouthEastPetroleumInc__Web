@@ -13,72 +13,99 @@ body
   
 }
 
-
 .header
 {
-    background-image: url(/img/BGhero.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(/img/BGhero.png);
+    background-position: center;
     
 }
-
 nav
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-}
-
-.logo
-{
-    height: 70px;
-    width: 150px;
-}
-
-ul, li, a
-{
-    display: flex;
-    margin: 5px;
-    text-decoration: none;
-    color: white;
-    
-}
-
-.contact__us
-{
-    border: none;
-    border-radius: 15px;
-    padding: 0 20px;
-    margin: 0 10px;
-    background-color: #ECC746;
+    padding: 10px 20px;
 }
 
 h1
 {
-    color: #ECC746;
-    font-size: 3rem;
+    color:#ECC746;
 }
 
 p
 {
-    width: 700px;
-    color: white;
-    line-height: 1.5rem;
+    color: #f5f5f5;
+}
+
+.menu-bar
+{
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin: 5px;
+    border-radius: 1px;
+    background-color: #f5f5f5;
 }
 
 .container__1
 {
-    padding: 20vh;
+    padding:20px 30px;
 }
 
 .scroll
 {
-    position: absolute;
-    top: 70%;
-    left: 50%;
+    color: #f5f5f5;
+    margin-top: 75px;
+    font-size: .8rem;
     text-align: center;
-    color: white;
 }
 
+.scroll img
+{
+    height: 50px;
+}
+
+.down-arrow
+{
+    position: relative;
+    animation: animation 1s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+}
+
+
+@keyframes animation
+{
+    from {top:0px;}
+    to {top:10px;}
+}
+
+
+
 /* Vision */
+
+.vision
+{  
+    position:absolute;
+    padding:20px 30px;
+    padding: 0;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(/img/Vision.png);
+
+}
+
+h2
+{
+  text-align: right;
+  margin: 20px;
+}
+
+.vision__paragraph
+{
+    padding: 20px 30px;
+}
