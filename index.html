@@ -7,25 +7,19 @@
 
     <title>SouthEast Petroleum INC.</title>
 </head>
-<body>
+<body id="body">
     <header class="header">
         <nav>
-   
                 <img class="logo" src="/img/SElogo.png" alt="">
-                <div class="mobile__menu">   
+                <div id="menu" class="mobile__menu" onclick="showMenu()">   
                 <div class="menu-bar"></div>
                 <div class="menu-bar"></div>
                 <div class="menu-bar"></div>
+
                 </div>
-             
-            <!-- <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Vision & Mission</a></li>
-                <li><a href="#">Our Service</a></li>
-                <li><a href="#">Our Goals</a></li>
-                <button class="contact__us">Contact Us</button>
-            </ul> -->
-            </nav>
+                
+        </nav>
+
             <div class="container__1">
                 <h1>SOUTHEAST </br>PETROLEUM INC.</h1>
                 <p>epitomizes the convergence of quality and innovation in the energy sector , rising as a leading supplier of diverse and high-quality petroleum products , 
@@ -98,9 +92,26 @@
  </footer>
 
 
+<section id="menu-popup" class="popup">
+    <div class="pop_container">
+        <div class="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Vision & Mision</a></li>
+                <li><a href="#">Our Service</a></li>
+                <li><a href="#">Contact Us</a></li>  
+                <button id="button">close</button>
+            </ul>
+       
+            </div>
+        
+          
+        </div>
+      
+    </div>
+</section>
 
 
-
-
+<script src="/script.js"></script>
 </body>
 </html>
