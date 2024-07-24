@@ -352,6 +352,7 @@ button:hover
         padding:50px;
         background-repeat: no-repeat;
         background-size: cover;
+        
        
      }
 
@@ -387,6 +388,10 @@ button:hover
         height: 500px;
      }
 
+     .vision-container p
+     {
+        text-align: right;
+     }
 
 
    
