@@ -347,11 +347,12 @@ button:hover
 @media only screen and (min-width: 600px) 
  
     {
-     .header
+     .header, .vision, .mision
      {
         padding:50px;
         background-repeat: no-repeat;
         background-size: cover;
+       
      }
 
 
@@ -364,6 +365,29 @@ button:hover
      {
         display: flex;
      }
+
+     nav 
+     {
+        max-width: 650px;
+     }
+
+     .container__1, .vision-container, .mision-container, .services, nav
+     {
+        margin: 0 auto;
+        max-width: 1270px;
+     }
+
+     nav 
+     {
+        max-width: 1270px;
+     }
+
+     .vision-container, .mision-container
+     {
+        height: 500px;
+     }
+
+
 
    
     }
